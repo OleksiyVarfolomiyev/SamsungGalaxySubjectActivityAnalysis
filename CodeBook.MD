@@ -38,17 +38,18 @@ reading data into data frames from files:
 combine train and test data and name the columns
 
 ## 1. Merge the training and the test sets to create one data set
-dat
+stored in: dat
 
 ## 2. Extract only the measurements on the mean and standard deviation for each measurement. 
-datDesired
+stored in: datDesired
 
 ## 3. Use descriptive activity names to name the activities in the data set
 Merge datDesired with activity type (actType)
-
+stored in: data
 ## 4. Appropriately label the data set with descriptive activity names.
 Use gsub to set desctiptive column names
 
 ## 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
-Use plyr package ddply function that applies numcolwise(mean)
-Save tidy averaged data to tidy_data_averages.txt
+* Use plyr package ddply function that applies numcolwise(mean)
+* stored in dataAverages
+* Save tidy averaged data to tidy_data_averages.txt
