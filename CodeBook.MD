@@ -49,6 +49,6 @@ Merge datDesired with activity type (actType)
 ## 4. Appropriately label the data set with descriptive activity names.
 Use gsub to set desctiptive column names
 
-## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+## 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Use plyr package ddply function that applies numcolwise(mean)
 Save tidy averaged data to tidy_data_averages.txt
